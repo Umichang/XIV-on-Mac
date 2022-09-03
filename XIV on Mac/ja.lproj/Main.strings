@@ -113,6 +113,9 @@
 /* Class = "NSMenuItem"; title = "Substitutions"; ObjectID = "9ic-FL-obx"; */
 "9ic-FL-obx.title" = "自動置換";
 
+/* Class = "NSButtonCell"; title = "Quit XIV on Mac upon game exit"; ObjectID = "9ie-LK-Dur"; */
+"9ie-LK-Dur.title" = "Quit XIV on Mac upon game exit";
+
 /* Class = "NSTextFieldCell"; title = "Copy existing game data to \"XIV on Mac\" prefix."; ObjectID = "9yd-8A-qFs"; */
 "9yd-8A-qFs.title" = "既存のゲームパッチを「XIV on Mac」内にコピーします。";
 
@@ -469,6 +472,9 @@
 
 /* Class = "NSWindow"; title = "Window"; ObjectID = "cnG-sE-eCO"; */
 "cnG-sE-eCO.title" = "ウィンドウ";
+
+/* Class = "NSButtonCell"; title = "Warn if game exits with non-zero exit code"; ObjectID = "cqe-Mq-QD3"; */
+"cqe-Mq-QD3.title" = "Warn if game exits with non-zero exit code";
 
 /* Class = "NSMenuItem"; title = "Smart Links"; ObjectID = "cwL-P1-jid"; */
 "cwL-P1-jid.title" = "スマートリンク";
