@@ -15,8 +15,9 @@ struct Wine {
     static let prefix = Util.applicationSupport.appendingPathComponent("wineprefix")
     
     static func setup() {
+        let mvkPath = Bundle.main.url(forResource: Dxvk.modernMVK ? "modern" : "stable", withExtension: "", subdirectory: "MoltenVK")!.path
         let winePath = Bundle.main.url(forResource: "lib", withExtension: "", subdirectory: "wine")!.path
-        let libSearchPaths = [winePath, "/opt/local/lib", "/usr/local/lib", "/usr/lib", "/usr/libexec", "/usr/lib/system", "/opt/X11/lib"]
+        let libSearchPaths = [mvkPath, winePath, "/opt/local/lib", "/usr/local/lib", "/usr/lib", "/usr/libexec", "/usr/lib/system", "/opt/X11/lib"]
             .compactMap {FileManager.default.fileSystemRepresentation(withPath: $0)}
         let colon = UnsafePointer(strdup(":")!)
         defer {

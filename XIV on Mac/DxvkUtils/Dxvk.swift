@@ -127,4 +127,14 @@ struct Dxvk {
         }
     }
     
+    private static let modernMVKKey = "ModernMoltenVK"
+    static var modernMVK: Bool {
+        get {
+            UserDefaults.standard.bool(forKey: modernMVKKey)
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: modernMVKKey)
+        }
+    }
+    
 }
