@@ -207,13 +207,13 @@
 
 // First Aid/Troubleshooting Window
 "FIRSTAID_WINDOW_TITLE" = "First-Aid";
-"FIRSTAID_SHADER_CACHE_HEADING" = "Shader Cache";
-"FIRSTAID_SHADER_CACHE_BLURB" = "If your game is freezing at startup, \"Compiling Shaders…\" forever, missing lighting or randomly freezing, the problem may be with your shader cache. Deleting it will cause a new one to be rebuilt, though it may result in occasional stutters during play initially.";
-"FIRSTAID_SHADER_CACHE_BUTTON" = "Delete User Shader Cache";
-"FIRSTAID_CONFIG_HEADING" = "FFXIV Configuration";
-"FIRSTAID_RESET_CONFIG_BLURB" = "If you've misconfigured your game in a way that prevents you from playing it, such as a bad graphics setting, you can try resetting your configuration to default.";
-"FIRSTAID_RESET_CONFIG_BUTTON" = "Reset Configuration";
-"FIRSTAID_CHECKUP_BLURB" = "XIV on Mac can identify potential problems, or make recommended changes to your FFXIV Configuration file to give you the best experience available on the Mac.";
-"FIRSTAID_CHECKUP_BUTTON" = "Configuration Checkup";
-"FIRSTAID_CFGCHECK_FIX_BUTTON" = "Fix";
+"FIRSTAID_SHADER_CACHE_HEADING" = "シェーダーキャッシュ";
+"FIRSTAID_SHADER_CACHE_BLURB" = "起動時にフリーズする、「Compiling Shaders...」とずっと表示される、光源が欠落する、ランダムにフリーズするなどの症状がある場合、シェーダーキャッシュに問題がある可能性があります。削除すると新しいキャッシュが再構築されますが、しばらくはプレイ中に時々カクカクすることがあります。";
+"FIRSTAID_SHADER_CACHE_BUTTON" = "シェーダーキャッシュを削除する";
+"FIRSTAID_CONFIG_HEADING" = "FF14のコンフィグ";
+"FIRSTAID_RESET_CONFIG_BLURB" = "グラフィックの設定を誤るなど、ゲームをプレイできないような設定になっている場合は、設定をリセットしてみるとよいでしょう。";
+"FIRSTAID_RESET_CONFIG_BUTTON" = "設定をリセットする";
+"FIRSTAID_CHECKUP_BLURB" = "XIV on Macは、潜在的な問題を特定し、FF14の設定ファイルに推奨される変更を加えることで、Macで利用できる最高の体験を提供します。";
+"FIRSTAID_CHECKUP_BUTTON" = "設定の検査";
+"FIRSTAID_CFGCHECK_FIX_BUTTON" = "修復";
 
